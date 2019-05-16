@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+main{
+	width: 100%;
+	height: 100vh;
+	background-color:#4075a0;
+	
+}
+p{
+	padding-top: 16vh;
+	margin-bottom: 10px;
+	text-shadow: 0px 5px #295c7f;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 1rem;
+}
+.contact-form{
+	width: 40%;
+	margin: 0 auto;
+}
+.contact-form input{
+	width: 80%;
+	margin: .5rem 43px;
+	height: 2rem;
+	outline: none;
+	border: none;
+	font-size: 1.5rem;
+	padding: .4rem;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #799ABF;
+}
+.contact-form textarea{
+	width: 80%;
+	margin: .5rem 43px;
+	height: 10rem;
+	outline: none;
+	border: none;
+	font-size: 1.5rem;
+	padding: .4rem;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #799ABF;
+}
+
+.contact-form button{
+	width: 30%;
+	margin: .5rem 140px;
+	height: 3rem;
+	outline: none;
+	border: none;
+	font-size: 1.5rem;
+	padding: .4rem;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #799ABF;
+}
+.contact-form button:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
